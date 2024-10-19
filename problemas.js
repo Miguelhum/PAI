@@ -132,42 +132,121 @@
 //14.5.- Escriu un programa que, donats tres números llegits amb prompt, escrigui a la
 //consola els tres números ordenats. 
 
-let num1 = prompt("escribre un numero")
-let num2 = prompt("escribe un numero")
-let num3 = prompt("escribe un numero")
-let primer
-let segon
-let tercer
+//let num1 = prompt("escribre un numero")
+//let num2 = prompt("escribe un numero")
+//let num3 = prompt("escribe un numero")
+//let primer
+//let segon
+//let tercer
 
-if (num1 <= num2 && num1 <= num3) {
-    primer = num1;
-    if (num2 <= num3) {
-        segon = num2;
-        tercer = num3;
-    } else {
-        segon = num3;
-        tercer = num2;
-    }
-} else if (num2 <= num1 && num2 <= num3) {
-    primer = num2;
-    if (num1 <= num3) {
-        segon = num1;
-        tercer = num3;
-    } else {
-        segon = num3;
-        tercer = num1;
-    }
-} else {
-    primer = num3;
-    if (num1 <= num2) {
-        segon = num1;
-        tercer = num2;
-    } else {
-        segon = num2;
-        tercer = num1;
-    }
-}
-console.log(primer,segon,tercer)
+//if (num1 <= num2 && num1 <= num3) {
+  //  primer = num1;
+    //if (num2 <= num3) {
+      //  segon = num2;
+        //tercer = num3;
+    //} else {
+      //  segon = num3;
+        //tercer = num2;
+    //}
+//} else if (num2 <= num1 && num2 <= num3) {
+  //  primer = num2;
+    //if (num1 <= num3) {
+      //  segon = num1;
+        //tercer = num3;
+    //} else {
+      //  segon = num3;
+        //tercer = num1;
+    //}
+//} else {
+  //  primer = num3;
+    //if (num1 <= num2) {
+      //  segon = num1;
+        //tercer = num2;
+    //} else {
+      //  segon = num2;
+        //tercer = num1;
+    //}
+//}
+//console.log(primer,segon,tercer)
+
+//14.6.- En un control d’alcoholèmia necessiten un programa que els hi digui si una persona
+//pot conduir o no. El programa demanarà dues dades: Si la persona té carnet de conduir i el
+//valor que ha sortit a la prova d’alcoholèmia. El programa ha de respondre que sí pot conduir
+//si té carnet de conduir i la prova d’alcoholèmia ha donat un valor inferior a 0.25
+
+//let carnet = prompt("la persona tiene carnet?")
+//let prueba = prompt("ponga que dió en la prueba")
+
+//if(carnet == "si" && prueba <= 0.25)
+  //console.log("la persona puede conducir")
+//else
+  //console.log("la persona no puede conducir")
+
+//13.7.- Escriu un programa que, donat dos números llegits amb prompt, escrigui a la consola
+//el resultat de restar al nombre més gran el nombre més petit.
+
+//let num1 = prompt("escribe un numero")
+//let num2 = prompt("escribe un numero")
+//let resta
+
+//if(num1 > num2)
+  //resta = num1 - num2
+
+//else
+  //resta = num2 - num1
+//console.log(resta)
+
+//14.8.- Escriu un programa que simuli la compra a una web. L’usuari haurà d’introduir una
+//quantitat (el que cal pagar) per teclat fent servir la instrucció prompt.
+
+//let numero = prompt("estroduce la cantidad que tienes que pagar")
+//let envio = 4.95
+//let precio
+
+//if(numero > 30)
+  //  precio = numero
+//else if (numero > 0 && numero < 30 )
+  //precio = numero + envio
+//console.log("tienes que pagar" + " " + precio)
+
+//14.9.- Un usuari va a una gelateria i per calcular el cost del seu gelat té un ordinador on
+//posa dues dades:
+//1. Si vol un conus (c) o una terrina (t). El conus té un cost base de 3.45 i la terrina de
+//3.95
+//2. Quin d’aquests sabors vol:
+//1. Vainilla o Xocolata. No cal afegir res
+//2. Turró, Menta o Oreo. Caldrà afegir 0.5 al preu final.
+//3. Crema, Gerds o Ametlles. Caldrà afegir 1 al preu final.
+//Si l’usuari posa alguna dada malament, el missatge que es posarà a la consola serà “Error
+//dades mal introduïdes”
+//Si totes les dades són correctes, escriurà el preu final.
+
+//let tip = prompt("introduce tipo de helado (cono = c y tarina = t")
+//let preciobase
+
+//if(tip === "c")
+  //preciobase = 3.45
+//else if(tip=== "t")
+  //preciobase = 3.95
+//else
+  //console.log("error datos mal introducidos")
+//preciobase = null
+
+//if(preciobase !== null)
+  //let sabor = prompt("cual sabor?( vainilla, chocolate, turrón, menta, oreo, crema, arándanos, almendra")
+//if(sabor === "vainilla" && sabor=="chocolate")
+  //preciobase
+  //else if(sabor === "turrón" && sabor === "menta"&& sabor === "oreo")
+    //preciobase += 0.5
+  //else if(sabor === "crema" && sabor === "arándanos" && sabor === "almendra")
+    //preciobase += 1
+  //else
+    //console.log("error datos mal introducidos")
+    //preciobase = null
+
+//if(preciobase !== null)
+  //console.log("el precio final es" + " " + preciobase + "euros" )
+
 
 
 
