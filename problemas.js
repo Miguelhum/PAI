@@ -247,9 +247,225 @@
 //if(preciobase !== null)
   //console.log("el precio final es" + " " + preciobase + "euros" )
 
+//5.1.- Fent servir la instrucció switch escriu un programa que donat amb prompt un número
+//de mes, entre 1 i 12, escrigui per pantalla el nom del mes que correspon.
+
+//let num = prompt("escribe un numero del 1-12")
+
+//switch(mes){
+  //case 1:
+    //console.log("enero")
+    //break
+    //case 2:
+    //console.log("febrero")
+    //break
+  //case 3:
+    //console.log("marzo")
+    //break
+  //case 4:
+    //console.log("abril")
+    //break
+  //case 5:
+    //console.log("mayo")
+    //break
+  //case 6:
+    //console.log("junio")
+    //break
+  //case 7:
+    //console.log("julio")
+    //break 
+  //case 8:
+    //console.log("agosto")
+    //break
+  //case 9:
+    //console.log("septiembre")
+    //break
+  //case 10:
+    //console.log("octubre")
+    //break
+  //case 11:
+    //console.log("noviembre")
+    //break
+  //case 2:
+    //console.log("diciembre")
+    //break
+//}
+
+//15.2.- Un usuari va a una gelateria i per calcular el cost del seu gelat té un ordinador on
+//posa dues dades:
+//1. Si vol un conus (c) o una terrina (t). El conus té un cost base de 3.45 i la terrina de
+//3.95
+//2. Quin d’aquests sabors vol:
+//1. Vainilla o Xocolata. No cal afegir res
+//2. Turró, Menta o Oreo. Caldrà afegir 0.5 al preu final.
+//3. Crema, Gerds o Ametlles. Caldrà afegir 1 al preu final.
+//Fes servir la instrucció switch per fer el càlcul de l’increment de preu associat al sabor.
+//Si l’usuari posa alguna dada malament, el missatge que es posarà a la consola serà “Error
+//dades mal introduïdes”.
+//Si totes les dades són correctes, escriurà el preu final.
 
 
+//let tipusGelat = prompt("Vols un conus (c) o una terrina (t)?").toLowerCase();
 
 
+//let saborGelat = prompt(
+  //"Tria un sabor: Vainilla, Xocolata, Turró, Menta, Oreo, Crema, Gerds, Ametlles"
+//).toLowerCase();
+
+
+//let costBase = 0;
+//let increment = 0;
+//let costFinal = 0;
+
+//if (tipusGelat === "c") {
+  //costBase = 3.45;
+//} else if (tipusGelat === "t") {
+  //costBase = 3.95;
+//} else {
+  //console.log("Error dades mal introduïdes del tipus de gelat");
+//}
+//switch (saborGelat) {
+  //case "vainilla":
+  //case "xocolata":
+    //increment = 0;
+    //break;
+  //case ("turró", "menta", "oreo"):
+    //increment = 0.5; 
+    //break;
+  //case "crema":
+  //case "gerds":
+  //case "ametlles":
+   // increment = 1; 
+    //break;
+  //default:
+    //console.log("Error dades mal introduïdes de sabor");
+    //break;
+//}
+
+// Calculem el preu final si les dades són correctes
+//if (costBase > 0 && increment >= 0) {
+  //costFinal = costBase + increment;
+  //console.log("El preu final del teu gelat és: " + costFinal.toFixed(2) + "€");
+//}
+
+//15.3.- Escriu un programa, que donat una lletra que representa un dia de la setmana (l -
+  //dilluns, m - dimarts, x - dimecres, j - dijous, …) escrigui a la consola si el dia és laborable o
+  //festiu. Són laborables de dilluns a divendres. Fes servir la instrucció switch.
+
+  //let letra = prompt("l,m,x,j,v,s,d")
+
+  //switch(letra){
+    //case 1:
+      //letra === l
+      //console.log("día laborable")
+    //break
+    //case 2:
+      //letra === m
+      //console.log("día laborable")
+    //break
+    //case 3:
+      //letra === x
+      //console.log("día laborable")
+    //break
+    //case 4:
+      //letra === j
+      //console.log("día laborable")
+    //break
+    //case 5:
+      //letra === v
+      //console.log("día laborable")
+    //break
+    //case 6:
+      // letra === s
+       //console.log("día no laborable")
+    //break
+    //case 7:
+      // letra === d
+       //console.log("día no laborable")
+    //break
+    //default:
+      //console.log("nada")
+    //break
+  //}
+  //16.1.- Escriu, fent servir la instrucció for, un programa que escrigui a la consola 10 cops el
+//text “Estem fent bucles”. 
+
+//for(let i=0; i<10; i++)
+  //console.log("estem fent bucles")
+
+//16.2.- Escriu, fent servir la instrucció for, un programa que escrigui a la consola tots els
+//nombres del 5 al 20.
+
+//for(let i = 5; i <= 20; i++)
+  //console.log(i)
+
+//16.3.- Escriu un programa que, donat un nombre N, escrigui a la consola la suma de tots els
+//nombres entre 1 i N.
+
+//let n = prompt("numero")
+//let suma = 0
+//for(let i = 1; i <= n; i++)
+  //suma += i
+//console.log("la suma 1 i" + n + "es" + suma)
+
+//16.4.- Escriu un programa que, donat un nombre N, escrigui a la consola el factorial
+//d’aquest nombre. El factorial és la multiplicació de tots els números entre 1 i N. 
+
+//let n = prompt("numero")
+//let multi = 1
+//for(let i = 1; i <= n; i++)
+  //multi *= i
+//console.log("la multi 1 i" + n + "es" + multi)
+
+//16.6.- Escriu un programa que, donat un número N, calculi la suma de tots els números
+//parells entre 2 i N.
+
+//let n = prompt("numero")
+//let sumapar = 0
+
+//for(let i = 2; i <= n; i += 2)
+  //sumapar += i
+
+//16.7.- Escriu un programa que, donat un número N, escrigui a la consola la taula de
+//multiplicar de N.
+//let n = prompt("escribe un numero")
+//let multi
+  //for(let i = 1; i <= 10; i++)
+    //multi = n*i
+    //console.log(multi)
+
+//16.7.- Escriu un programa que, donat un número N, escrigui a la consola la taula de
+//multiplicar de N.
+
+//let n = prompt("numero")
+//for(let i = n; i >= 1; i--)
+ // console.log(i)
+
+//16.9.- Escriu un programa que donat un número N, escrigui N asteriscos (*)
+
+//let n = prompt("introduce un numero")
+
+//let asteriscos = ""
+//for(let i = 0; i < n; i++)
+  //asteriscos += "*"
+
+//console.log(asteriscos)
+
+//16.10.- Escriu un programa que donat un número N, escrigui el següent dibuix (cas que el
+//  número introduït sigui 5).
+  //*
+  //**
+  //***
+  //****
+  //*****
+
+  let n = prompt("escribe un numero")
+
+  for(let i = 1; i <= n; i++)
+    asteriscos = "";
+  for(let j = 1; j <= i; j++)
+    asteriscos += "*"
+
+  console.log(asteriscos)
 
 
