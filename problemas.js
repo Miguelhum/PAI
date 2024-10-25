@@ -459,13 +459,19 @@
   //****
   //*****
 
-  let n = prompt("escribe un numero")
+  //let n = prompt("escribe un numero")
 
-  for(let i = 1; i <= n; i++)
-    asteriscos = "";
-  for(let j = 1; j <= i; j++)
-    asteriscos += "*"
+  //for(let i = 1; i <= n; i++)
+    //asteriscos = "";
+  //for(let j = 1; j <= i; j++)
+    //asteriscos += "*"
 
-  console.log(asteriscos)
+  //console.log(asteriscos)
 
+ // 16.11.- Escriu un programa que donat dos números N i M, crei i sumi una sèrie com la
+ // següent:
+ /// Si N ← 2 i M ← 5
+  //Sortida per consola:
+  //2 22 222 2222 22222
+  //La suma de la sèrie és:24690 
 
